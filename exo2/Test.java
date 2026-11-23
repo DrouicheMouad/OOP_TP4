@@ -20,14 +20,12 @@ public class Test {
         s2.addPoints(45);
         s2.display();
 
-        s3.addPoints(120);
+        s3.addPoints(101);
         s3.display();
         
         System.out.println("\n========= Bob's max score is updated to 150 =========");
         s3.setMaxScore(150);
         s3.addPoints(120);
         s3.display();
-
-  
     }
 }

@@ -88,9 +88,9 @@ public class Point {
     public void setName(String name) {
         if (name == null || name.isEmpty() || !Character.isLetter(name.charAt(0))) {
             System.out.println("Error: the name must start with a letter.");
-        } else {
-            this.name = name;
+            return;
         }
+        this.name = name;
     }
     
     //Getters

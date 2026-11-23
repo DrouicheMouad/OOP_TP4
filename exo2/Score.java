@@ -45,7 +45,7 @@ public class Score {
     public Score() {
         playerName = "unknown";
         maxScore = 100;
-        setCurrentScore(0);
+        currentScore=0;
     }
     //Q6
     public Score(String playerName) {
